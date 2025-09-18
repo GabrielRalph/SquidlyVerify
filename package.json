@@ -1,0 +1,11 @@
+{
+  "name": "squidlyverify",
+  "version": "1.0.0",
+  "description": "A squidly service to verify your identity",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gabriel Ralpg",
+  "license": "ISC"
+}
