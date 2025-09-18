@@ -6,7 +6,7 @@ const PORT = process.env.PORT || 8080;
 // Serve static files from 'public'
 app.use(
   express.static("public", {
-    dotfiles: "allow"  // <-- this is the key
+    dotfiles: "allow" 
   })
 );
 app.listen(PORT, () => {
