@@ -5,7 +5,7 @@ const PORT = process.env.PORT || 8080;
 
 // Serve static files from 'public'
 app.use(
-  express.static(path.join(__dirname, "public"), {
+  express.static("public", {
     dotfiles: "allow"  // <-- this is the key
   })
 );
